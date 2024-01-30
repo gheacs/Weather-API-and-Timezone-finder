@@ -6,13 +6,24 @@ from zoneinfo import ZoneInfo
 st.title("World Clock")
 st.write("This app shows the current time in different time zones.")
 
-# Get current time
+# Get date and current time
 Seattle_current_time = datetime.datetime.now(ZoneInfo("America/Los_Angeles"))
 Indonesia_current_time = datetime.datetime.now(ZoneInfo("Asia/Jakarta"))
 New_York_current_time = datetime.datetime.now(ZoneInfo("America/New_York"))
 
-# Show time in different time zones in the app
-st.write("Current time in Seattle:", Seattle_current_time.strftime("%H:%M:%S"))
-st.write("Current time in Indonesia:", Indonesia_current_time.strftime("%H:%M:%S"))
-st.write("Current time in New York:", New_York_current_time.strftime("%H:%M:%S"))
+
+# Visualize the time in different time zones
+st.write("Seattle")
+st.write("Indonesia")
+st.write("New York")
+
+# Create a clock for each time zone
+st.write(Seattle_current_time.strftime("%H:%M:%S"))
+st.write(Indonesia_current_time.strftime("%H:%M:%S"))
+st.write(New_York_current_time.strftime("%H:%M:%S"))
+
+# Add images
+st.image("https://www.pngkey.com/png/full/114-1149878_seattle-skyline-seattle-skyline-silhouette-png.png", width=300)
+st.image("https://www.pngkey.com/png/full/114-1149878_seattle-skyline-seattle-skyline-silhouette-png.png", width=300)
+st.image("https://www.pngkey.com/png/full/114-1149878_seattle-skyline-seattle-skyline-silhouette-png.png", width=300)
 
