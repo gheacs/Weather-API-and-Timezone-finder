@@ -36,13 +36,12 @@ This project is part of Lab 4 for the TECHIN 510 course. The purpose of this lab
 
 ## Usage
 
-1. Run the application:
+Run the application:
 
     ```bash
     streamlit run app.py
     ```
 
-2. Access the application in your web browser at [http://localhost:8501](http://localhost:8501).
 
 ## Dependencies
 
