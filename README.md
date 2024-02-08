@@ -40,9 +40,7 @@ Run the application:
 
     ```bash
     streamlit run app.py
-    ```
-
-
+    ```  
 ## Dependencies
 
 List of dependencies required to run the project:
