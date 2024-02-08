@@ -53,4 +53,9 @@ List of dependencies required to run the project:
 - Python-dotenv
 
 ## Self Reflection 
+1. This week I have learned that despite it's user simplicity, streamlit can have many limitation on layout design.
+2. The previous webscrapping for lab3 weather condition was unsuccessful in retrieving the weather data so I try to use API instead for this lab.
+3. I learn on how to store API key properly before publishing in github
 
+## Potential Future Improvement
+If I have more time, I would definitely add more features aside from weather condition.
